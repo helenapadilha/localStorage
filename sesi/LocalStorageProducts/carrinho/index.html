@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
+    <title>Carrinho</title>
+    <style>
+        #pedido{
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            background-color: rgb(149, 231, 168);
+            color: black;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <a href="../Loja">Voltar as compras!🛍</a>
+    <br></br>
+    <h1>Carrinho</h1>
+
+    <div id="lista"></div>
+
+        <h3 id="total"></h3>
+
+        <button onclick="gerarDocumentoWord()">Realizar pedido</button>
+
+        <p id="pedido">
+            Pedido gerado com sucesso
+            <button onclick="successClose()" id="sc">X</button>
+         </p>
+
+         <script src="script.js"></script>
+</body>
+</html>

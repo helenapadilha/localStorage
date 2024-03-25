@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "descricao": "Batom rosa",
+    "imagem": "../Imagens/batom.jpg",
+    "preco": 60.00
+    },
+    {
+    "id": 2,
+    "descricao": "Blush",
+    "imagem": "../Imagens/blush.jpg",
+    "preco": 70.00
+    },
+    {
+    "id": 3,
+    "descricao": "Delineador",
+    "imagem": "../Imagens/delineador.jpg",
+    "preco": 40.00
+    },
+    {
+    "id": 4,
+    "descricao": "Rímel",
+    "imagem": "../Imagens/rimel.jpg",
+    "preco": 45.00
+    },
+    {
+    "id": 5,
+    "descricao": "Paleta de sombras",
+    "imagem": "../Imagens/paleta de sombras.jpg",
+    "preco": 83.40
+    },
+    {
+        "id": 6,
+        "descricao": "Gloss",
+        "imagem": "../Imagens/gloss.jpg",
+        "preco": 60.00
+        },
+        {
+        "id": 7,
+        "descricao": "Iluminador",
+        "imagem": "../Imagens/iluminador.jpg",
+        "preco": 40.00
+        },
+        {
+        "id": 8,
+        "descricao": "Lápis de olho",
+        "imagem": "../Imagens/lapis.jpg",
+        "preco": 39.90
+        },
+        {
+        "id": 9,
+        "descricao": "Pó traslucido",
+        "imagem": "../Imagens/pó.jpg",
+        "preco": 30.90
+        },
+        {
+        "id": 10,
+        "descricao": "Caixa de strass",
+        "imagem": "../Imagens/strass.jpg",
+        "preco": 20.00
+        }
+]
